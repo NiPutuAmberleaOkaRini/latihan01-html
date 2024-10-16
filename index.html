@@ -11,9 +11,27 @@
   h1{color:blue;font-weight:bold;text-shadow: 2px 2px 2px #125742;}
   h2{color:red;font-family: serif;}
   h3{color:pink;font-size: 12px;}
-  h4{color:#f4f81a;}
+  h4{color:#f4f81a;text-shadow: 2px 2px black;}
   h5{color:magenta;}
   h6{color:green;}
+  button{background-color: #125742;color: white;padding: 5px 20px 5px 20 px;border: none;border-radius: 10px 0;}
+  p{font-size: 20px;color: rgb(247, 42, 154);}
+  table{
+    width: 50%;
+  }
+  table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th{
+    text-align: center;
+  }
+  td{
+    text-align: center;
+  }
+  tr:hover{
+    background-color: silver;
+  }
 </style>
 <body>
   <h1>Amberlea</h1>
@@ -24,5 +42,57 @@
   <h6>Teknik Informatika</h6>
   <button onclick="console.log('hello');">Press me</button>
   <script defer type="text/javascript" src="/main.js"></script>
+  <p>Dikisahkan ada seorang perempuan dan laki-laki yang masih duduk di <b>sebuah</b> Sekolah Menengah Atas. Perempuan tersebut bernama <i> Sally</i> dan yang <u>laki-laki</u> bernama Aga. Mulanya mereka tidak mengenal satu sama lain. Namun ada suatu kejadian yang membuat mereka harus bertemu dan mulai timbul suatu masalah. <br>Udara di pagi hari sangat pas dihirup karena mengandung oksigen / O<sub>2</sub> yang baik untuk kesehatan tubuh. Sekolah tersebut memiliki luas sekitar 400 m<sup>2</sup>.</p>
+  <p> Di sekolah, Sally pergi ke kantin untuk membeli beberapa makanan untuk dikonsumsi pada waktu istirahat nanti. Diantaranya adalah :</p>
+  <h2> List Makanan Kantin :</h2>
+  <ul style="color: brown;list-style: upper-alpha;">
+    <li>Risol Mayo</li>
+    <li>Kentang Goreng</li>
+  </ul>
+  <hr>
+  <ol style="color: rgb(236, 126, 22);list-style:lower-alpha;"">
+    <li>Nasi Goreng</li>
+    <li>Ayam Goreng</li>
+    <li>Lemon Tea</li>
+  </ol>
+ <p>
+  <h3>Tabel Harga Makanan</h3>
+  <table>
+    <thead>
+    <tr>
+      <th>Nomor</th>
+      <th>Nama Makanan</th>
+      <th>Harga</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1.</td>
+      <td>Risol Mayo</td>
+      <td>3.000</td>
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td>Kentang Goreng</td>
+      <td>5.000</td>
+    </tr>
+    <tr>
+      <td>3.</td>
+      <td>Nasi Goreng</td>
+      <td>10.000</td>
+    </tr>
+    <tr>
+      <td>4.</td>
+      <td>Ayam Goreng</td>
+      <td>7.000</td>
+    </tr>
+    <tr>
+      <td>5.</td>
+      <td>Lemon Tea</td>
+      <td>6.000</td>
+    </tr>
+  </tbody>
+  </table>
+ </p>
 </body>
 </html>
