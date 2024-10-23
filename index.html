@@ -32,7 +32,29 @@
   tr:hover{
     background-color: silver;
   }
-</style>
+  label{font-size: 14px;font-weight:bold;}
+  input[type=text], input[type=number], input[type=date], input[type=time], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin: 8px 0;
+    color:black;
+    background-color: pink;
+    font-size: 16px;
+  }
+  select{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin: 8px 0;
+    color:black;
+    background-color: pink;
+    font-size: 16px;  
+  }
+  input[type=checkbox], input[type=radio]{
+    outline: 1px solid grey;
+  }
+  </style>
 <body>
   <h1>Amberlea</h1>
   <h2>Selamat Datang</h2>
@@ -94,5 +116,38 @@
   </tbody>
   </table>
  </p>
+
+ <form>
+  <label>Form Text</label>
+   <input type="text" name="Alamat" value="Isi Data Diri" id="Alamat" class="Alamat">
+  <label>Form Number</label>
+   <input type="number">
+  <label>Form Tanggal</label>
+   <input type="date">
+  <label>Form Waktu</label>
+   <input type="time">
+  <label>Form Pilihan</label>
+   <input type="radio" name="jnsk">Laki-laki
+   <input type="radio" name="jnsk">Perempuan
+   <br>
+   <input type="checkbox">Ballet
+   <input type="checkbox">Dance
+   <input type="checkbox">Badminton
+   <input type="checkbox">Gaming
+   <input type="checkbox">Cooking
+   <br>
+  <label>Form Pilihan Lain</label>
+   <select>
+    <option disabled >Silahkan pilih warna</option>
+    <option>Merah</option>
+    <option>Jingga</option>
+    <option>Kuning</option>
+   </select>
+   <br>
+  <label>Form Password</label>
+   <input type="password" name="pass">
+   <input type="submit" value="tombol">
+
+ </form>
 </body>
 </html>
